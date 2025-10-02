@@ -1,0 +1,18 @@
+user_resume_cv:
+  resume_path: "C:/Users/zjc10/OneDrive/Personal/Resume/Zach Carideo Resume 2025 v2.docx"
+  coverletter_path: "C:/Users/zjc10/OneDrive/Personal/Resume/CoverLetter - USAA Director AI_ML (Model Development).docx"
+job_search:
+  location: "Charlotte, NC"
+  job_titles:
+    - "Data Science Manager"
+    - "Data Science Director"
+    - "Analytics Manager"
+    - "Machine Learning Manager"
+    - "Marketing Analytics"
+  max_results: 15
+  time_filter: "r604800"  # Options: r86400 (24hrs), r604800 (week), r2592000 (month), "" (any time)
+  output_path: 
+linkedin:
+  base_url: "https://www.linkedin.com/jobs/search"
+  headers:
+    User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"

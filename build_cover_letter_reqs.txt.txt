@@ -1,0 +1,15 @@
+given the information in job_results.json , 
+create a new python script that takes job_results.json as an input
+, along with a users current resume and coverletter
+, and perform the below actions. 
+
+1) use the job description, the job name
+, and the company name from job_results.json
+, paired with a path to an existing resume and cover letter
+; update the cover letter to reflect the job description 
+, job title, and company name, and update the resume (if needed) 
+to better align with the job description. A path to the original cover 
+letter and resume should be part of the config. 
+
+2) update the job_results.json to include the fully customized resume and 
+coverletter as new keys in the dictionary of information associated with each job.
